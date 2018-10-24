@@ -8,9 +8,17 @@ variable "runtime" {
   default = "python3.6"
 }
 
-variable "bucket-name" {
+variable "zero-bucket-arn" {
   description = "IAM role attached to the Lambda Function (ARN)"
 }
-variable "bucket-arn" {
+
+variable "zero-bucket-name" {
+  description = "IAM role attached to the Lambda Function (ARN)"
+}
+
+variable "red-bucket-name" {
+  description = "IAM role attached to the Lambda Function (ARN)"
+}
+variable "red-bucket-arn" {
   description = "IAM role attached to the Lambda Function (ARN)"
 }
